@@ -18,8 +18,7 @@ class App extends React.Component{
     this.setState({movies, isLoading:false})
   };
   componentDidMount(){
-   this.getMovies();
-    
+   this.getMovies();    
   }
 
   render(){
